@@ -37,17 +37,16 @@
 #      - name: Display message
 #        run: echo "Deployment completed!"
 
-# I commented this line
 # This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run
 
 name: Build & Deploy
 
 on:
   push:
-    branches: ["master"]
+    branches: ["main"]
 
   pull_request:
-    branches: ["master"]
+    branches: ["main"]
 
   workflow_dispatch:
 
@@ -59,7 +58,7 @@ env:
 
 jobs:
   build_and_deploy:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
       - name: Checkout Repository

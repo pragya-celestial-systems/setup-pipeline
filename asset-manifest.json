@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/setup-pipeline/static/css/main.f855e6bc.css",
-    "main.js": "/setup-pipeline/static/js/main.a329facd.js",
+    "main.js": "/setup-pipeline/static/js/main.0acba2d9.js",
     "index.html": "/setup-pipeline/index.html",
     "main.f855e6bc.css.map": "/setup-pipeline/static/css/main.f855e6bc.css.map",
-    "main.a329facd.js.map": "/setup-pipeline/static/js/main.a329facd.js.map"
+    "main.0acba2d9.js.map": "/setup-pipeline/static/js/main.0acba2d9.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.a329facd.js"
+    "static/js/main.0acba2d9.js"
   ]
 }
